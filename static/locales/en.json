@@ -1,0 +1,51 @@
+{
+  "website":{
+    "title": "Devux's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "career": "Career",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": "I am a React and ROR developer with website and mobile development, automation Ops and writing scripts experience. Life is a continuous learning process, Understanding Nature is Science. I can make lots of friends when I coding and travel."
+  },
+  "skills":{
+    "my_skills": "My Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
+    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
+    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+  },
+  "career":{
+    "my_career": "My Career",
+    "nextcode": "FreeLancing",
+    "nextcode_des": "Now I am a freelancer working in reactjs and react-native platform with our team contains four developers.",
+    "nextcode_date": "Feb. 2016 to Now",
+    "nextcode_job": "React and React-Native Developer",
+    "netease": "Spritle",
+    "netease_des": "In Spritle, I worked Ruby on Rails project I learned Cordova for android ans IOS mobile.",
+    "netease_date": "May. 2015 to Feb 2016",
+    "netease_job": "Dev Ops",
+    "college": "Graduation",
+    "college_des": "At May 2015,I graduated from college and started my IT technology tour.",
+    "college_date": "May. 2015",
+    "college_job": "Student and worked in Ruby on Rails for some social related pro"
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "contact":{
+    "contact_me": "Contact Me",
+    "email": "Send me mail",
+    "follow": "Or through the following ways"
+  }
+
+}

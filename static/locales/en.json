@@ -20,14 +20,14 @@
   },
   "projects":{
     "my_projects": "My Projects",
-    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
+    "Reach": "Reach is a automated service for Truck management between Truck owner,Driver, Service Provider and IEP ",
+    "Potoo": "Potoo is a admin side application to manage posts of social network",
     "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
   },
   "career":{
     "my_career": "My Career",
     "nextcode": "FreeLancing",
-    "nextcode_des": "Now I am a freelancer working in reactjs and react-native platform with our team contains four developers.",
+    "nextcode_des": "Now I am a freelancer worker in reactjs and react-native platform with our team contains four developers.",
     "nextcode_date": "Feb. 2016 to Now",
     "nextcode_job": "React and React-Native Developer",
     "netease": "Spritle",

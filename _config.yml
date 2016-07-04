@@ -1,9 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "Devux"
+description: "Understanding Nature is Science then I would like to be a Scientist."
+keywords: "Devux,devux,blog,Jekyll,github,gh-pages"
 
 baseurl: "/"
 url: "http://www.jack003.com"
@@ -14,10 +14,10 @@ author:
   name: 'Jack'
   first_name: 'Jia'
   last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  email: 'devakumar.mj@gmail.com'
+  facebook_username: 'devakumar.murugan'
+  github_username: 'devux'
+  head_img: 'static/img/landing/devux.jpg'
 
 # landing page
 landing:
@@ -31,18 +31,27 @@ landing:
 
 # my projects
 project:
-  saplatform: 
+  Reach:
+    name: 'Reach'
+    img: 'static/img/landing/indicator.jpg'
+  Potoo:
+    name: 'Potoo'
+    img: 'static/img/landing/indicator.png'
+  saplatform:
     name: 'Saplatform'
-    url: '/Jack614/saplatform'
-    img: 'static/img/landing/saplatform.jpg'
-  jalpc: 
-    name: 'Jalpc'
-    url: '/Jack614/jalpc_jekyll_theme'
-    img: 'static/img/landing/jekyll.jpg'
-  angularjs: 
-    name: 'Jalpc-A'
-    url: '/Jack614/Jack614.github.io'
-    img: 'static/img/landing/angularjs.jpg'
+    img: 'static/img/landing/indicator.png'
+  Bets&Banters:
+    name: 'Bets & Banters'
+    img: 'static/img/landing/indicator.png'
+  Youtube-Radio:
+    name: 'Youtube-Radio'
+    img: 'static/img/landing/indicator.png'
+  EventPhotoapp:
+    name: 'Event Photo app'
+    img: 'static/img/landing/indicator.png'
+  SalesFreaks:
+    name: 'Sales Freaks'
+    img: 'static/img/landing/indicator.png'
 
 # blog index
 index:

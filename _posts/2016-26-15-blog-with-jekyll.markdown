@@ -8,9 +8,9 @@ author: devux@devakumar.mj
 ![](/images/blog.jpg)
 
 # Blogging 
-While we doing something new w'll forgot manythings say for example I'm riding viluppuram to chennai in bike for first I have to many people while riding.Now I reached chennai and now I know route for viluppuram to chennai but after 2 years I planning to go again vpm to chennai but again I cannot remember the routes now I'm confused and myslef feeling bad. 
+While we doing something new we will forgot manything on what we have done. say for example I'm riding viluppuram to chennai in bike for first time. I have to ask route with many people while riding.Now I reached chennai and now I know route for viluppuram to chennai but after 2 years If I planned to go again vpm to chennai, but again I cannot remember the routes, now I'm confused and myself feeling bad. 
 
-I'm thinking what is the solution for this problem so I'm planned to take notes while riding vilpurram to chennai.Now I've noted routes viluppuram->thindivanam->maruvathur->chennai now I can use this notes again and I can also give this notes to my frinds who are all travelling from villupuram to chennai.from this what I'm saying is bloggin is similar to that notes while we learning new things we can note/write something about the new one so that we can use it ang we can share it.
+I'm thinking what is the solution for this problem so I'm planned to take notes while riding vilpurram to chennai.Now I've noted routes viluppuram->thindivanam->maruvathur->chennai now I can use this notes again and I can also give this notes to my frinds who are all travelling from villupuram to chennai. From this what I'm saying is blogging is similar to that notes while we learning new things we can note/write something about the new one so that we can use it and we can share it.
 
 # Platform
 Many platform is there for blogging wordpress,ghost and jekyll etc. I'm very much interested in jekyll because I like [Ruby](https://www.ruby-lang.org)

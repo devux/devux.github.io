@@ -70,33 +70,33 @@ you can refer the image for simple example i have done created,copied and delete
 # Interesting commands
  `ls /etc /bin` list the file in both etc and bin directory
 
-#"ls -la" list
+# "ls -la" list
 by using the above command you can see filename,modification time at last,size of file,group and owner of file and file permissions
 
-#"type" display the type of command
+# "type" display the type of command
 **syntax:** `type <command-name>`<br/>
 **example:**  `type ls`
 
-#"file" display the type of content which is present inside the file
+# "file" display the type of content which is present inside the file
 **syntax:** `file <file name>`<br/>
 **example:** `file fsftn.txt`
 
 [Refer here](http://linuxcommand.org/lc3_lts0030.php)
 
-#Mouse work
+# Mouse work
 There is no work of mouse in you console you can easily handle by using only keyboard.only thing<br/>
 
 * right_click-> you can get more options like copy,cut & paste
 * left_click-> to select
 * Wheel_mouse_button-> to paste the slected content
 
-#File system in GNU/Linux user group
+# File system in GNU/Linux user group
 Hierarchical file system.All the directory comes under the root directory(/)
 
-#Access permission and User
+# Access permission and User
 we can have more then one user but only one super user
 
-#Difference between Normal and Super user
+# Difference between Normal and Super user
 Normal user can able to create delete,update only in particular directory
 Super user can have all right in whole OS.To work as a super user you just type
 
@@ -115,27 +115,24 @@ Let me complete this blog with functions <br/>
 # Functions <br/>
 you can also define functions in console itself.<br/>
 **Syntax:**<br/>
-{% highlight ruby %}
-function_name()
-  {
-    <commands>
-    <shell script>
-    <etc>
-  }
-{% endhighlight %}
+`function_name()`
+  `{`
+    `<commands>`
+    `<shell script>`
+    `<etc>`
+  `}`
+
 **example:**<br/>
-{% highlight ruby %}
- details()
+ `details()
     {
       date
       ls
       ls -a
-    }
-{% endhighlight %}
+    }`
 
 and then type details and hit enter you will see that three commands executed at same time one by one in the order which we gave in details() function.
 
-####Let us see shell scripts in next blog [Shell scripting Part-2]()
+#### Let us see shell scripts in next blog [Shell scripting Part-2]()
 
-#video tutorial on this part(..comming soon..)<br/>
+# video tutorial on this part(..comming soon..)<br/>
 And this is specially dedicated to rocking  `echo "village boys"`.

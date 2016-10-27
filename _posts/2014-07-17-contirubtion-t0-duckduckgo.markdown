@@ -20,14 +20,14 @@ There are three ways to contribute duckduckgo to improve their quality,
 2. Development
 3. Translation
 
-#1.DICUSSION:
+# 1.DICUSSION:
 In discussion you can discuss with duckduckgo community to do some modification,you can rise instant questions and immediately you can get answers
 
-#2.DEVELOPMENT:
+# 2.DEVELOPMENT:
 In Development you can contribute with Our own coding ideas
 
-#3.TRANSLATION:
+# 3.TRANSLATION:
 In Translation… yes as we are all human we may know atleast one language to Translate the terms with your own language…
 
-#MOST ENTERNAINABLE THING
+# MOST ENTERNAINABLE THING
 **Roboduck:** *Roboduck is a sister project of duckduckgo… we can chat,explore,ask questions with roboduck… i dont know whether it is Drake or duck but it is quite interest to chat with roboduck…*

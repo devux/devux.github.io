@@ -33,6 +33,8 @@ Create free accout in [firebase](https://firebase.google.com) and create a repos
 Login into firebase
 
 ```
+npm install -g firebase-tools
+
 firebase login
 
 ```

@@ -1,0 +1,569 @@
+---
+layout: blog
+title: index
+permalink: /
+---
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                        <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
+                        <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
+                        <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
+                        <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
+                        <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
+                        <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
+                        <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section id="about_me" class="features">
+    <div class="container" id="i18_about_me">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- python -->
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-python"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- linux -->
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-shell"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- avatar -->
+            <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+                    <h4><span class="navy">Deva</span> Kumar</h4>
+                </div>
+            </div>
+            <!-- html -->
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-angular"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- docker -->
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-docker"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><span data-i18n="about_me.des">
+                    I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.
+                </span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="career" class="timeline features gray-section">
+    <div class="container" id="i18_career">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="career.my_career">My Career</span></h1>
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                <!-- crayond -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-plus-square"></i>
+                        </div>
+                        <div class="vertical-timeline-content">
+                            <h2><span >Crayond</span></h2>
+                            <p><span >At Nov 2016,I worked as backend developer in docker,nodejs and Hasura.</span></p>
+                            <span class="vertical-date"><span > Nov. 2016 to Now</span><br/> <small><span >Hasura and NodeJS developer</span></small> </span>
+                        </div>
+                    </div>
+                    <!-- nextcode -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-plus-square"></i>
+                        </div>
+                        <div class="vertical-timeline-content">
+                            <h2><span data-i18n="career.nextcode">Nextcode</span></h2>
+                            <p><span data-i18n="career.nextcode_des">Now I am in Nextcode and develop website with Python code for genetic analysis. </span></p>
+                            <span class="vertical-date"><span data-i18n="career.nextcode_date"> Apr. 2016 </span><br/> <small><span data-i18n="career.nextcode_job">Python Developer</span></small> </span>
+                        </div>
+                    </div>
+                    <!-- netease game -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-gamepad"></i>
+                        </div>
+                        <div class="vertical-timeline-content">
+                            <h2><span data-i18n="career.netease">Netease Game</span></h2>
+                            <p><span data-i18n="career.netease_des">In Netease game, I learned game service system and use Python code for ops. </span></p>
+                            <span class="vertical-date"><span data-i18n="career.netease_date"> Jun. 2015 </span><br/> <small><span data-i18n="career.netease_job">Dev Ops</span></small> </span>
+                        </div>
+                    </div>
+                    <!-- student -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="vertical-timeline-content">
+                            <h2><span data-i18n="career.college">Graduation</span></h2>
+                            <p><span data-i18n="career.college_des">At July 2013,I graduated from college and started my IT technology tour.</span></p>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> Jul. 2013 </span><br/> <small><span data-i18n="career.college_job">Student</span></small> </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="skills" class="team features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" id="i18_skills">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+            </div>
+        </div>
+        <div class="row features-block">
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>Docker</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">50% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>NodeJS</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">65% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>Hasura Query</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">90% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>Ruby</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">50% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>Ruby on Rails</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">80% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>ReactJS</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 60%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">60% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>React Native</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                        <span class="sr-only">65% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>Shell Script</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
+                        <span class="sr-only">70% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>HTML,CSS and JS</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
+                        <span class="sr-only">65% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<br><br><br>
+</section>
+
+<section id="project" class="project gray-section features">
+    <div class="container" id="i18_projects">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="/static/img/landing/indicator.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Reach</span></h4>
+                    <p><span data-i18n="projects.saplatform">Reach is a automated service for Truck management between Truck owner,Driver, Service Provider and IEP.</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 wow">
+                <div class="team-member">
+                    <img src="/static/img/landing/admin.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Potoo</span></h4>
+                    <p><span data-i18n="projects.jalpc">Potoo is a admin side application to manage posts of social network</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="/static/img/landing/football.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Bets and Banters</span></h4>
+                    <p><span data-i18n="projects.angularjs">It is a betting app for football premier league in England.</span></p>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="/static/img/landing/youtube.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Youtube-Radio</span></h4>
+                    <p><span data-i18n="projects.jalpc">Android and IOS App for youtube channel and Radio.</span></p>
+                </div>
+            </div>
+            <div class="col-sm-4 wow">
+                <div class="team-member">
+                    <img src="/static/img/landing/event.jpg" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Event Photo App</span></h4>
+                    <p><span data-i18n="projects.jalpc">It is a Photo selling app includes event details.</span></p>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="/static/img/landing/costco.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Sales Freaks</span></h4>
+                    <p><span data-i18n="projects.jalpc">Android and web app for Scrapping the costco material and selling in Ebay.</span></p>
+                </div>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="/static/img/landing/treehugger.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Tree hugger</span></h4>
+                    <p><span data-i18n="projects.saplatform">Mother Nature is unpredictable just as Vardah was. We did not stand a chance to defend, but we have a choice to rebuild. Aspire to be a Tree Hugger!</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 wow">
+                <div class="team-member">
+                    <img src="/static/img/landing/commingsoon.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Comming Soon</span></h4>
+                    <p><span data-i18n="projects.jalpc">My Next Project</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="/static/img/landing/foodz_logo.png" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">Foodz</span></h4>
+                    <p><span data-i18n="projects.angularjs">Let your friends guide you,Live the trend,Enjoy a serenely moment</span></p>
+                </div>
+            </div>
+          </div>
+
+    </div>
+    <br><br>
+</section>
+
+<section id="blog" class="navy-section testimonials" style="margin-top: 0">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
+                <br><br><br><br>
+                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
+                <br><br><br><br>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact" class="contact features">
+    <div class="container" id="i18_contact">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="contact.contact_me">Contact Me</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center fadeInLeft">
+                <a href="mailto:{{ site.author.email }}" class="btn btn-primary"><span data-i18n="contact.email">Send me mail</span></a>
+                <p class="m-t-sm"><span data-i18n="contact.follow">
+                    Or through the following ways
+                </span></p>
+                <ul class="list-inline social-icon">
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="" target="blank"><i class="fa fa-rss"></i></a>
+                    </li>
+                    <!-- <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2016 {{ site.title }}</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+            $("#navbar").collapse('hide');
+        });
+    });
+
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+    })();
+
+    // Activate WOW.js plugin for animation on scrol
+    new WOW().init();
+
+</script>
+
+<script>
+
+    $(document).ready(function (){
+
+        $.i18n.init({
+            resGetPath: 'static/locales/__lng__.json',
+            load: 'unspecific',
+            fallbackLng: false,
+            lng: 'en'
+        }, function (t){
+            $('.i18container').i18n();
+            // $('#i18_title').i18n();
+            $('#i18_navbar').i18n();
+            $('#i18_about_me').i18n();
+            $('#i18_skills').i18n();
+            $('#i18_projects').i18n();
+            $('#i18_career').i18n();
+            $('#i18_blog').i18n();
+            $('#i18_contact').i18n();
+        });
+
+        $('.set_en').on('click', function (){
+            i18n.setLng('en', function(){
+                $('.i18container').i18n();
+                // $('#i18_title').i18n();
+                $('#i18_navbar').i18n();
+                $('#i18_about_me').i18n();
+                $('#i18_skills').i18n();
+                $('#i18_projects').i18n();
+                $('#i18_career').i18n();
+                $('#i18_blog').i18n();
+                $('#i18_contact').i18n();
+
+                // $('.set_en').addClass('active');
+                // $('.set_cn').removeClass('active');
+            });
+        });
+
+        $('.set_cn').on('click', function (){
+            i18n.setLng('cn', function(){
+                $('.i18container').i18n();
+                // $('#i18_title').i18n();
+                $('#i18_navbar').i18n();
+                $('#i18_about_me').i18n();
+                $('#i18_skills').i18n();
+                $('#i18_projects').i18n();
+                $('#i18_career').i18n();
+                $('#i18_blog').i18n();
+                $('#i18_contact').i18n();
+
+                // $('.set_cn').addClass('active');
+                // $('.set_en').removeClass('active');
+            });
+        });
+
+    });
+
+</script>

@@ -1,6 +1,6 @@
 # Jalpc.
 
-<http://www.jack003.com>
+<http://www.devakumar003.com>
 
 ![Blog](blog.gif)
 
@@ -38,18 +38,18 @@ The _config.yml located in the root of the jalpc_jekyll_theme directory contains
 title: "Jalpc"    ### Website title
 
 baseurl: "/"      ### Some links refer to this
-url: "http://www.jack003.com"     ### This is for product environment
+url: "http://www.devakumar003.com"     ### This is for product environment
 # url: "http://127.0.0.1:4000"    ### This is used for debug 
 
 # author
 author:
-  name: 'Jack'
+  name: 'devakumar'
   first_name: 'Jia'
   last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
+  email: 'devakumar19890614@gmail.com'
   facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'   ### Relative path
+  github_username: 'devakumar614'
+  head_img: 'static/img/landing/devakumar.jpg'   ### Relative path
 
 # landing page
 landing:
@@ -151,7 +151,7 @@ If you start server on localhost, you can turn on `# url: "http://127.0.0.1:4000
 
 ### Pagination
 
-The pagination in jekyll is not very perfect,so I use front-end web method,there is a [blog](http://www.jack003.com/html/2016/06/04/jekyll-pagination-with-jpages.html) about the method and you can refer to [jPages](http://luis-almeida.github.io/jPages).
+The pagination in jekyll is not very perfect,so I use front-end web method,there is a [blog](http://www.devakumar003.com/html/2016/06/04/jekyll-pagination-with-jpages.html) about the method and you can refer to [jPages](http://luis-almeida.github.io/jPages).
 
 ### Bilingual Page
 
@@ -288,7 +288,7 @@ Replace your website domain in **CNAME** file.
 
 ### Put in a Jalpc Plug
 
-If you want to give credit to the Jalpc theme with a link to my personal website <http://www.jack003.com>, that'd be awesome. No worries if you don't.
+If you want to give credit to the Jalpc theme with a link to my personal website <http://www.devakumar003.com>, that'd be awesome. No worries if you don't.
  
 ### Enjoy
 

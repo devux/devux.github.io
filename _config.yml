@@ -6,12 +6,12 @@ description: "Understanding Nature is Science then I would like to be a Scientis
 keywords: "Devux,devux,blog,Jekyll,github,gh-pages"
 
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://www.devakumar003.com"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
+  name: 'devakumar'
   first_name: 'Jia'
   last_name: 'Kun'
   email: 'devakumar.mj@gmail.com'
